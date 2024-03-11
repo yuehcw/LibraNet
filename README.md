@@ -4,6 +4,31 @@
 ## Overview
 LibraNet is a web-based application that emulates the functionalities of a traditional library, allowing users to manage books and authors. It provides a comprehensive platform for adding, updating, deleting, and viewing books and authors. The application is built using modern web technologies, ensuring a responsive and intuitive user experience.
 
+* Main Page
+![Main.png](img%2FMain.png)
+
+* Search Author Page
+![searchAuthor.png](img%2FsearchAuthor.png)
+
+* Add Author Page
+![addAuthor.png](img%2FaddAuthor.png)
+
+* Edit Author Page
+![editAuthor.png](img%2FeditAuthor.png)
+
+* Search Book Page
+![searchBook.png](img%2FsearchBook.png)
+
+* Add Book Page
+![addBook.png](img%2FaddBook.png)
+
+* Edit Book Page
+![editBook.png](img%2FeditBook.png)
+
+* BookByAuthor Page
+![bookByAuthor.png](img%2FbookByAuthor.png)
+
+
 ## Project Structure
 The application is organized into several key directories and files, each serving a specific purpose in the application's architecture:
 
@@ -94,6 +119,10 @@ With MongoDB running, you are now ready to start the project server. Run the fol
 ```bash
 npm run start
 ```
+You will see in the console:
+
+![serverStart.png](img%2FserverStart.png)
+
 
 ### Step 5: Open the URL in your browser:
 
