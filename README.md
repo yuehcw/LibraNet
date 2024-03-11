@@ -95,6 +95,13 @@ With MongoDB running, you are now ready to start the project server. Run the fol
 npm run start
 ```
 
+### Step 4: Open the URL in your browser:
+
+```bash
+http://localhost:3000/
+```
+
+
 
 ## Conclusion
 LibraNet represents a modern take on library management, integrating traditional library functions with the advantages of web technology for accessibility and ease of use.
