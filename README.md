@@ -29,6 +29,71 @@ The application is organized into several key directories and files, each servin
 ## Setup and Installation
 (Note: Specific setup and installation instructions would depend on further details within each file, especially `Server.js` for starting the server and `package.json` for dependencies.)
 
+Follow these steps to get everything up and running.
+
+## Prerequisites
+
+- [Node.js](https://nodejs.org/) installed on your system
+
+### For macOS Users
+
+- [Homebrew](https://brew.sh/) installed on your macOS system for MongoDB installation
+
+### Step 1: Install Project Dependencies
+
+First, ensure you are in the project's root directory. Then, install the necessary Node.js dependencies by running the following command in your terminal:
+
+```bash
+npm install
+```
+
+### Step 2: Install MongoDB
+
+#### For macOS Users Using Homebrew
+
+a. **Add the MongoDB Repository to Homebrew**
+
+Open your terminal and execute the following command to tap the MongoDB Homebrew repository:
+
+```bash
+brew tap mongodb/brew
+```
+
+b. **Install MongoDB**
+
+Once the repository has been tapped, install MongoDB with the following command:
+
+```bash
+brew install mongodb-community
+```
+
+#### For Windows Users
+
+1. **Download MongoDB for Windows**: Visit the [MongoDB Download Center](https://www.mongodb.com/try/download/community), select the Community Server tab, choose "Windows" as your operating system, and download the installer.
+2. **Install MongoDB**: Run the downloaded installer and follow the setup wizard. Choose the "Complete" setup type and opt to install MongoDB as a service.
+3. **Add MongoDB to the PATH Environment Variable**: Locate the MongoDB bin directory (default is `C:\Program Files\MongoDB\Server\<version>\bin`) and add it to the system's PATH environment variable.
+
+### Step 3: Start MongoDB
+
+#### For macOS Users
+
+After successfully installing MongoDB, you can start the MongoDB service using Homebrew by running:
+
+```bash
+brew services start mongodb/brew/mongodb-community
+```
+
+#### For Windows Users
+
+Start MongoDB by running the MongoDB service, which was set up during the installation process.
+
+### Step 4: Start the Server
+
+With MongoDB running, you are now ready to start the project server. Run the following command:
+
+```bash
+npm run start
+```
 
 
 ## Conclusion
