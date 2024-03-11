@@ -95,7 +95,7 @@ With MongoDB running, you are now ready to start the project server. Run the fol
 npm run start
 ```
 
-### Step 4: Open the URL in your browser:
+### Step 5: Open the URL in your browser:
 
 ```bash
 http://localhost:3000/
