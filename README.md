@@ -32,7 +32,7 @@ LibraNet is a web-based application that emulates the functionalities of a tradi
 ## Project Structure
 The application is organized into several key directories and files, each serving a specific purpose in the application's architecture:
 
-- **Server.js**: The main server file that initializes and runs the Express server.
+- **server.js**: The main server file that initializes and runs the Express server.
 - **models/**: Contains the data models for the application, defining the schema for books and authors.
 - **public/**: Houses static assets like JavaScript files, fonts, and CSS stylesheets for the client-side.
 - **views/**: EJS templates for generating dynamic HTML content based on server-side data.
@@ -52,7 +52,7 @@ The application is organized into several key directories and files, each servin
 - **MongoDB**: Used as the backend database for storing application data.
 
 ## Setup and Installation
-(Note: Specific setup and installation instructions would depend on further details within each file, especially `Server.js` for starting the server and `package.json` for dependencies.)
+(Note: Specific setup and installation instructions would depend on further details within each file, especially `server.js` for starting the server and `package.json` for dependencies.)
 
 Follow these steps to get everything up and running.
 
