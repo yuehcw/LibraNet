@@ -4,6 +4,8 @@
 ## Overview
 LibraNet is a web-based application that emulates the functionalities of a traditional library, allowing users to manage books and authors. It provides a comprehensive platform for adding, updating, deleting, and viewing books and authors. The application is built using modern web technologies, ensuring a responsive and intuitive user experience.
 
+## You can access the deployed application [here](https://yuehcw-libranet-cc96adc89fd9.herokuapp.com/).
+
 * Main Page
 ![Main.png](img%2FMain.png)
 
